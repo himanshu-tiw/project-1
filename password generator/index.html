@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="head-cont">
+        <p id="head-1">Generate a</p>
+        <p id="head-2">random password</p>
+        <p id="head-3">Never use an insecure password again.</p>
+    </div>
+
+    <div id="butt">
+        <input type="text" name="" id="pass-len" placeholder="Enter length of password">
+        <button onclick="generate()">⚡ Generate passwords</button>
+    </div>
+
+    <hr/>
+
+    <div id="gen-box">
+        <input type="text" name="" id="a0" placeholder="..." onclick="copyToClipboard(0)">
+        <input type="text" name="" id="a1" placeholder="..." onclick="copyToClipboard(1)">
+        <input type="text" name="" id="a2" placeholder="..." onclick="copyToClipboard(2)">
+        <input type="text" name="" id="a3" placeholder="..." onclick="copyToClipboard(3)">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
